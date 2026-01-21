@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dr. Venkatesan M - Associate Professor & HOD, Department of Computer Science and Engineering, NIT Puducherry. Expert in AI, Machine Learning, Remote Sensing, and Data Mining.">
+    <title>Dr. Venkatesan M | Associate Professor & HOD-CSE | NIT Puducherry</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Animated Background Canvas -->
+    <canvas id="neural-bg"></canvas>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <img src="https://nitpy.ac.in/assets/images/logo.png" alt="NIT Puducherry" class="nav-logo-img">
+                <div class="nav-logo-text">
+                    <span class="nav-name">Dr. Venkatesan M</span>
+                    <span class="nav-title">HOD, CSE</span>
+                </div>
+            </a>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link active">Home</a></li>
+                <li><a href="research.html" class="nav-link">Research</a></li>
+                <li><a href="publications.html" class="nav-link">Publications</a></li>
+                <li><a href="teaching.html" class="nav-link">Teaching</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <div class="hero-main">
+                <div class="hero-profile">
+                    <div class="profile-image-wrapper">
+                        <div class="profile-ring"></div>
+                        <div class="profile-ring ring-2"></div>
+                        <img src="https://nitpy.irins.org/profile_images/248849.jpg" alt="Dr. Venkatesan M" class="profile-image">
+                        <div class="profile-badge">
+                            <span>HOD</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-text">
+                    <div class="hero-intro">
+                        <span class="intro-line"></span>
+                        <span class="intro-text">Associate Professor & Head of Department</span>
+                    </div>
+                    <h1 class="hero-name">
+                        <span class="name-first">Dr. Venkatesan</span>
+                        <span class="name-last">Meenakshi Sundaram</span>
+                    </h1>
+                    <p class="hero-affiliation">
+                        <span class="dept">Department of Computer Science & Engineering</span>
+                        <span class="inst">National Institute of Technology Puducherry</span>
+                    </p>
+                </div>
+            </div>
+
+            <div class="hero-footer">
+                <div class="research-domains">
+                    <div class="domain" data-aos="fade-up" data-delay="0">
+                        <div class="domain-icon"><i class="fas fa-satellite"></i></div>
+                        <span>Remote Sensing</span>
+                    </div>
+                    <div class="domain" data-aos="fade-up" data-delay="100">
+                        <div class="domain-icon"><i class="fas fa-brain"></i></div>
+                        <span>Deep Learning</span>
+                    </div>
+                    <div class="domain" data-aos="fade-up" data-delay="200">
+                        <div class="domain-icon"><i class="fas fa-database"></i></div>
+                        <span>Data Mining</span>
+                    </div>
+                    <div class="domain" data-aos="fade-up" data-delay="300">
+                        <div class="domain-icon"><i class="fas fa-image"></i></div>
+                        <span>Image Processing</span>
+                    </div>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-card">
+                        <div class="stat-value" data-target="321">0</div>
+                        <div class="stat-label">Citations</div>
+                        <div class="stat-bar"><span style="width: 80%"></span></div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" data-target="9">0</div>
+                        <div class="stat-label">h-index</div>
+                        <div class="stat-bar"><span style="width: 60%"></span></div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" data-target="50">0</div>
+                        <div class="stat-label">Publications</div>
+                        <div class="stat-bar"><span style="width: 70%"></span></div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" data-target="5">0</div>
+                        <div class="stat-label">PhD Scholars</div>
+                        <div class="stat-bar"><span style="width: 50%"></span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-hint">
+            <span>Explore</span>
+            <div class="scroll-line"></div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="section about-section">
+        <div class="container">
+            <div class="section-grid">
+                <div class="section-label">
+                    <span class="label-number">01</span>
+                    <span class="label-text">About</span>
+                    <span class="label-line"></span>
+                </div>
+                <div class="section-content">
+                    <h2 class="section-title">Bridging the gap between <em>artificial intelligence</em> and <em>earth observation</em></h2>
+                    <div class="about-text">
+                        <p>With over 15 years in academia, I lead research at the intersection of deep learning and remote sensing. My work focuses on developing intelligent systems that can interpret satellite imagery, enabling applications from urban planning to environmental monitoring.</p>
+                        <p>As Head of the CSE Department at NIT Puducherry, I'm committed to nurturing the next generation of researchers while advancing our understanding of spatial data through innovative AI techniques.</p>
+                    </div>
+                    <div class="about-highlights">
+                        <div class="highlight">
+                            <div class="highlight-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                                </svg>
+                            </div>
+                            <div class="highlight-content">
+                                <h4>Rs. 44 Lakhs</h4>
+                                <p>Research Funding</p>
+                            </div>
+                        </div>
+                        <div class="highlight">
+                            <div class="highlight-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                </svg>
+                            </div>
+                            <div class="highlight-content">
+                                <h4>German Patent</h4>
+                                <p>Spatial Data Mining</p>
+                            </div>
+                        </div>
+                        <div class="highlight">
+                            <div class="highlight-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <path d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/>
+                                </svg>
+                            </div>
+                            <div class="highlight-content">
+                                <h4>Springer Book</h4>
+                                <p>Data Mining & ML</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research Section -->
+    <section class="section research-section">
+        <div class="container">
+            <div class="section-grid">
+                <div class="section-label">
+                    <span class="label-number">02</span>
+                    <span class="label-text">Research</span>
+                    <span class="label-line"></span>
+                </div>
+                <div class="section-content">
+                    <h2 class="section-title">Transforming how we <em>see</em> and <em>understand</em> our planet</h2>
+                    <div class="research-cards">
+                        <article class="research-card">
+                            <div class="card-visual">
+                                <div class="visual-grid">
+                                    <span></span><span></span><span></span><span></span>
+                                    <span></span><span></span><span></span><span></span>
+                                    <span></span><span></span><span></span><span></span>
+                                    <span></span><span></span><span></span><span></span>
+                                </div>
+                                <i class="fas fa-cloud-sun"></i>
+                            </div>
+                            <div class="card-content">
+                                <h3>Cloud Removal from Satellite Imagery</h3>
+                                <p>Deep learning architectures for SAR-optical fusion to reconstruct cloud-free Sentinel-2 images</p>
+                                <div class="card-tags">
+                                    <span>CERMF-Net</span>
+                                    <span>MSDF-Net</span>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="research-card">
+                            <div class="card-visual">
+                                <div class="visual-layers">
+                                    <span></span><span></span><span></span>
+                                </div>
+                                <i class="fas fa-layer-group"></i>
+                            </div>
+                            <div class="card-content">
+                                <h3>Hyperspectral Image Classification</h3>
+                                <p>Hybrid deep learning models combining 3D-CNN with attention mechanisms for precise land cover mapping</p>
+                                <div class="card-tags">
+                                    <span>V3O2 Model</span>
+                                    <span>Deep Learning</span>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="research-card">
+                            <div class="card-visual">
+                                <div class="visual-nodes">
+                                    <span></span><span></span><span></span><span></span><span></span>
+                                </div>
+                                <i class="fas fa-project-diagram"></i>
+                            </div>
+                            <div class="card-content">
+                                <h3>Spatial Data Mining</h3>
+                                <p>Co-location pattern discovery algorithms using Delaunay diagrams for geographic knowledge extraction</p>
+                                <div class="card-tags">
+                                    <span>CP-Tree</span>
+                                    <span>Spatial Patterns</span>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <a href="research.html" class="section-link">
+                        <span>Explore all research areas</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section projects-section">
+        <div class="container">
+            <div class="section-grid">
+                <div class="section-label">
+                    <span class="label-number">03</span>
+                    <span class="label-text">Projects</span>
+                    <span class="label-line"></span>
+                </div>
+                <div class="section-content">
+                    <h2 class="section-title">Funded research <em>advancing</em> scientific frontiers</h2>
+                    <div class="project-cards">
+                        <div class="project-card featured">
+                            <div class="project-header">
+                                <span class="project-agency">DST-ICPS</span>
+                                <span class="project-status ongoing">Ongoing</span>
+                            </div>
+                            <h3>Data Science Research Initiative</h3>
+                            <p>Multi-institutional collaborative project developing advanced data science methodologies for complex real-world applications</p>
+                            <div class="project-footer">
+                                <div class="project-amount">
+                                    <span class="currency">₹</span>
+                                    <span class="value">33</span>
+                                    <span class="unit">Lakhs</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <div class="project-header">
+                                <span class="project-agency">ISRO RESPOND</span>
+                                <span class="project-status completed">Completed</span>
+                            </div>
+                            <h3>Land Use Land Cover Mapping</h3>
+                            <p>AI-based automated classification of satellite imagery using deep convolutional neural networks</p>
+                            <div class="project-footer">
+                                <div class="project-amount">
+                                    <span class="currency">₹</span>
+                                    <span class="value">10.95</span>
+                                    <span class="unit">Lakhs</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Publications Section -->
+    <section class="section publications-section">
+        <div class="container">
+            <div class="section-grid">
+                <div class="section-label">
+                    <span class="label-number">04</span>
+                    <span class="label-text">Publications</span>
+                    <span class="label-line"></span>
+                </div>
+                <div class="section-content">
+                    <h2 class="section-title">Recent contributions to <em>scientific knowledge</em></h2>
+                    <div class="publication-list">
+                        <article class="publication-item">
+                            <div class="pub-year">2024</div>
+                            <div class="pub-content">
+                                <h3>CERMF-Net: A SAR-Optical Feature Fusion for Cloud Elimination From Sentinel-2 Imagery</h3>
+                                <p class="pub-venue">IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing</p>
+                                <span class="pub-badge q1">Q1</span>
+                            </div>
+                        </article>
+                        <article class="publication-item">
+                            <div class="pub-year">2022</div>
+                            <div class="pub-content">
+                                <h3>Spatiotemporal Assessment of Satellite Image Time Series for Land Cover Classification</h3>
+                                <p class="pub-venue">Remote Sensing (MDPI)</p>
+                                <span class="pub-badge q1">Q1</span>
+                            </div>
+                        </article>
+                        <article class="publication-item">
+                            <div class="pub-year">2021</div>
+                            <div class="pub-content">
+                                <h3>V3O2: Hybrid Deep Learning Model for Hyperspectral Image Classification</h3>
+                                <p class="pub-venue">Journal of Real Time Image Processing</p>
+                                <span class="pub-badge q2">Q2</span>
+                            </div>
+                        </article>
+                    </div>
+                    <a href="publications.html" class="section-link">
+                        <span>View all publications</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Academic Profiles -->
+    <section class="section profiles-section">
+        <div class="container">
+            <div class="profiles-grid">
+                <a href="https://scholar.google.com/citations?user=ZSGG6xwAAAAJ" target="_blank" class="profile-link">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span>Google Scholar</span>
+                </a>
+                <a href="https://orcid.org/0000-0002-1651-7093" target="_blank" class="profile-link">
+                    <i class="fab fa-orcid"></i>
+                    <span>ORCID</span>
+                </a>
+                <a href="https://www.scopus.com/authid/detail.uri?authorId=37051339300" target="_blank" class="profile-link">
+                    <i class="fas fa-database"></i>
+                    <span>Scopus</span>
+                </a>
+                <a href="https://dblp.org/pid/162/5446.html" target="_blank" class="profile-link">
+                    <i class="fas fa-book"></i>
+                    <span>DBLP</span>
+                </a>
+                <a href="https://www.linkedin.com/in/venkatesan-meeenakshi-sundaram-3080a57/" target="_blank" class="profile-link">
+                    <i class="fab fa-linkedin"></i>
+                    <span>LinkedIn</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact CTA -->
+    <section class="section cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Let's Collaborate</h2>
+                <p>Open to research collaborations, industry partnerships, and mentoring motivated students in AI and remote sensing</p>
+                <div class="cta-actions">
+                    <a href="mailto:hod-csedept@nitpy.ac.in" class="cta-button primary">
+                        <i class="fas fa-envelope"></i>
+                        <span>hod-csedept@nitpy.ac.in</span>
+                    </a>
+                    <a href="contact.html" class="cta-button secondary">
+                        <span>Contact Details</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-main">
+                <div class="footer-brand">
+                    <img src="https://nitpy.ac.in/assets/images/logo.png" alt="NIT Puducherry" class="footer-logo">
+                    <div class="footer-info">
+                        <h3>Dr. Venkatesan M</h3>
+                        <p>Associate Professor & Head<br>Department of Computer Science & Engineering<br>National Institute of Technology Puducherry</p>
+                    </div>
+                </div>
+                <div class="footer-nav">
+                    <div class="footer-col">
+                        <h4>Navigation</h4>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="research.html">Research</a></li>
+                            <li><a href="publications.html">Publications</a></li>
+                            <li><a href="teaching.html">Teaching</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Contact</h4>
+                        <ul>
+                            <li><a href="mailto:hod-csedept@nitpy.ac.in">hod-csedept@nitpy.ac.in</a></li>
+                            <li><a href="tel:+914132655281">+91-413-2655281 (Ext: 225)</a></li>
+                            <li><a href="tel:+919442314011">+91-9442314011</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Dr. Venkatesan M | NIT Puducherry, Karaikal - 609609</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
